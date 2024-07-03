@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card__front">
+            <div class="from__logo" id="card-logo"></div>
+            <div class="card__number" id="card-number">XXXX XXXX XXXX XXXX</div>
+            <div class="card__name" id="card-name">XXXXX XXXXX</div>
+            <div class="card__expiry" id="card-expiry">XX/XX</div>
+        </div>
+    </div>
+    <div class="form">
+        <div class="form__logo">
+            <img id="form-logo" src="mastercard-logo.png" alt="Card Logo">
+        </div>
+        <div class="from__inputs">
+            <label for="name">Nama</label>
+            <input type="text" id="name" maxlength="25">
+        </div>
+        <div>
+            <label for="number">Card Number</label>
+            <input type="text" id="number" maxlength="20">
+        </div>
+        <div>
+            <label for="expiry">Expiration</label>
+            <input type="text" id="expiry" maxlength="10">
+        </div>
+        <div>
+            <label for="security code">Securty Code</label>
+            <input type="password" id="security-code" maxlength="5">
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
